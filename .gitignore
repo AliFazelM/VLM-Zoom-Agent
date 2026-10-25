@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data / videos / model weights (big files — don't push to GitHub)
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+data/
+videos/
+outputs/
+results/
+checkpoints/
+
+# Secrets
+.env
+*.key
+hf_token*
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
